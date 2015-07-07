@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title>ATM</title>
+  <meta charset="utf-8">
+  
+  <link rel="stylesheet" href="stylesheets/main.css">
+  <script src="javascripts/jquery-2.1.3.js"></script>
+</head>
+<body>
+  <div class="header">
+    <div><img src="images/ga.png" /></div>
+    <div class="title">Bank of GA</div>
+  </div>
+
+  <!-- checking section -->
+  <div class="zero" id="account1">
+  	<h2>Checking</h2>
+  	<div class="balance" id="checking_balance">$0</div>
+  	<input type="number" placeholder="enter amount" id="checking_amount" />
+  	<input type="button" value="Deposit" id="checking_deposit" />
+  	<input type="button" value="Withdraw" id="checking_withdraw" />
+  </div>
+
+   <!-- savings section -->
+  <div class="zero" id="account2">
+  	<h2>Savings</h2>
+  	<div class="balance" id="savings_balance">$0</div>
+  	<input type="number" placeholder="enter amount" id="savings_amount" />
+  	<input type="button" value="Deposit" id="savings_deposit" />
+  	<input type="button" value="Withdraw" id="savings_withdraw" />
+  </div> 
+
+
+  <script src="javascripts/main.js"></script>
+</body>
+</html>
